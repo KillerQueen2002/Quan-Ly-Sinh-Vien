@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thông tin sinh viên"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="40dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Họ và tên:"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold|italic"
+            android:textSize="20dp"></TextView>
+
+        <TextView
+            android:id="@+id/hienThiTen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="25dp">
+
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Ngày tháng năm sinh:"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold|italic"
+            android:textSize="20dp"></TextView>
+
+        <TextView
+            android:id="@+id/hienThiNamsinh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="25dp">
+
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Trường:"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold|italic"
+            android:textSize="20dp"></TextView>
+
+        <TextView
+            android:id="@+id/hienThiTruong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="25dp">
+
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Giới tính:"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold|italic"
+            android:textSize="20dp"></TextView>
+
+        <TextView
+            android:id="@+id/hienThiGioiTinh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="25dp">
+
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Sở thích:"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold|italic"
+            android:textSize="20dp"></TextView>
+
+        <TextView
+            android:id="@+id/hienThiSoThich"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="25dp"
+            android:text="Danh sach so thich"
+            android:layout_marginLeft="20dp">
+
+        </TextView>
+        <TextView
+            android:id="@+id/hienThiSoThich2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="25dp"
+            android:text="Danh sach so thich"
+            android:layout_marginLeft="20dp">
+
+        </TextView>
+        <TextView
+            android:id="@+id/hienThiSoThich3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="25dp"
+            android:text="Danh sach so thich"
+            android:layout_marginLeft="20dp">
+
+        </TextView>
+    </LinearLayout>
+
+</LinearLayout>
